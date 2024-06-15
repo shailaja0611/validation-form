@@ -1,0 +1,100 @@
+*
+
+
+{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 8, 143);
+    border-radius: 50px;
+}
+.container{
+    position: relative;
+    max-width: 370px;
+    padding: 25px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+  .container header   {
+    font-size: 30px;
+    font-weight: 600;
+    color: grey;
+  
+}
+.container form{
+    margin-top: 30px;
+
+}
+form.field{
+   margin-bottom: 20px;
+}
+form.input-field{
+    position: relative;
+    height: 55px;
+    width: 100px;
+}
+.input-field input{
+    height: 100px;
+    width: 10px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid white;
+}
+.input-field.show-hide{
+    position: absolute;
+    right: 13px;
+    top:50px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color:bisque;
+    cursor:pointer;
+    padding: 3px;
+}
+
+
+
+.filed .error{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    color: brown;
+    font-size: 13px;
+
+}
+.error .error-icon{
+    margin-right: 6px;
+    font-size: 15px;
+
+}
+.create-passward .error{
+    align-items: flex-start;
+
+
+}
+.create-passward.error-icon{
+    margin-top: 4px;
+}
+.button{
+    margin: 25px;
+
+}
+.button input{
+    color: beige;
+    font-size: 16px;
+     font-weight:400 ;
+     background-color: blue;
+     cursor: pointer;
+     transition: all 0 .3s ease;
+}
+.button input:hover{
+    background-color: blue;
+}

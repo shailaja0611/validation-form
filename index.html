@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email and password validation</title>
+    
+
+
+  <!----css-->
+  <link rel="stylesheet"href="css/sytle.css"/>
+
+
+  <!---Boxicons css-->
+  <link
+     href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+     rel='stylesheet"
+     />
+
+</head>
+<body>
+
+     <div class="container">
+     <header>signup</header>
+
+     <form action="#">
+        <div class="field">
+        <div class="input-field email field">
+        <input type="email"  placeholder="Enter your email" > 
+        </div>
+        <span class="error email error">
+            <ion-icon name="alert-circle-outline"></ion-icon>
+        <p class="error-text">please enter a vaild mail</p>
+        </span>
+        </div>
+     </form>
+     </div>
+     <div class="field">
+        <div class="input-field creat password">
+        <input type="email"  placeholder="creat password" > 
+        <i class='bx bx-hide show -hide'></i>
+        </div>
+        <span class="error email error">
+            <ion-icon name="alert-circle-outline"></ion-icon>
+        <p class="error-text">please enter atleast 8charater with number ,synbol  small and capitale letter</p>
+        </span>
+        </div>
+     </form>
+     </div>
+     <div class="field">
+        <div class="input-field confirm password">
+        <input 
+         type="email" 
+         placeholder="confirm password" 
+         class="cpassword-" 
+         >
+        <i class='bx bx-hide show -hide'></i>
+        </div>
+        <span class="error cpassword- error">
+            <ion-icon name="alert-circle-outline"></ion-icon>
+        <p class="error-text">password don't match</p>
+        </span>
+        </div>
+     </form>
+     </div>
+       <div class="input-field button">
+        <input type="submit" value="submit now">
+       </div>
+
+     <!----javascript--->
+     <script src="js/script.js"></script>
+
+</body>
+</html>
